@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="54dp"
+                android:layout_marginRight="37dp"
+                android:background="@drawable/btn_zml_glossy"
+                android:ems="6"
+                android:height="50dp"
+                android:text="GO!!!"
+                android:textColor="#ffffff" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/button1"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="36dp"
+                android:layout_marginRight="18dp"
+                android:background="@drawable/edittext_rounded_corners"
+                android:ems="10"
+                android:height="30dp"
+                android:hint="Enter your name"
+                android:paddingLeft="10dp" />
+            
+    </RelativeLayout>   
+    
+        
+</LinearLayout>
